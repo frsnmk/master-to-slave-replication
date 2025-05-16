@@ -76,8 +76,8 @@
   ```sql
   CHANGE MASTER TO
     MASTER_HOST='host',
-    MASTER_USER='masteruser',
-    MASTER_PASSWORD='password',
+    MASTER_USER='repl',
+    MASTER_PASSWORD='passwordku',
     MASTER_LOG_FILE='mysql-bin.000237',
     MASTER_LOG_POS=3119983;
   ```
